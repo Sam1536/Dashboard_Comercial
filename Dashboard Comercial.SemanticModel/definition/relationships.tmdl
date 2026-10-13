@@ -1,0 +1,9 @@
+relationship 22dd67fe-c203-4b8b-9ad7-f2fc2141cfd8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Vendas.'Data da Venda'
+	toColumn: LocalDateTable_3cb17a7d-f0cc-4a82-843b-59127af48f33.Date
+
+relationship 81758c37-3a3c-0b2c-205d-d1b5ecbe1eec
+	fromColumn: Vendas.'SKU Vendido'
+	toColumn: CadastroProdutos.SKU
+
